@@ -1,0 +1,1 @@
+A NoteBook includes everything about Python. The Notebook is written in Jupyter Notebook (previous Ipython Notebook), and Anaconda is used to package management.

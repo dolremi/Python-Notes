@@ -6,3 +6,4 @@ Reference: <br />
 [Dataquest](https://www.dataquest.io/learn) <br />
 [Scipy Lectures](http://www.scipy-lectures.org/)  <br />
 [High Performance Scientific Computing](http://faculty.washington.edu/rjl/uwhpsc-coursera/index.html) <br />
+[Ipython Documentation](http://ipython.readthedocs.org/en/stable/) <br />

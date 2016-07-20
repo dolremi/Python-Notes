@@ -1,0 +1,8 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="MinimumTime.py" type="Python" />
+      <mapping pattern="MinimumTime" type="Python" />
+    </extensionMap>
+  </component>
+</application>

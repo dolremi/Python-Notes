@@ -7,7 +7,7 @@ class heap(object):
        From definition, 0 <= A.heap_size <= len(A)"""
     def __init__(self, items, size):
         self.items = items
-        self.heap_size = size or len(items)
+        self.heap_size = size
 
     def __getitem__(self, key):
         return self.items[key]
@@ -77,6 +77,8 @@ def heap_increase_key(A, i, key):
 
 def max_heap_insert(A, key):
     A.heap_size += 1
+    print(A.heap_size - 1)
+    print(len(A))
     A[A.heap_size - 1] = float("-inf")
     heap_increase_key(A, A.heap_size - 1, key)
 
@@ -85,3 +87,11 @@ def build_max_heap2(A):
     A.heap_size = 1
     for i in range(1, len(A)):
         max_heap_insert(A, A[i])
+
+if __name__ == "__main__":
+    items = [12, 34, 53, -43, 9, 11, None, None]
+    example = heap(items, 6)
+    build_max_heap(example)
+    print(items)
+    heap_increase_key(example, 6, 12)
+    print(items)
